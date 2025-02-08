@@ -4,9 +4,9 @@ repeat=int(input("How many times would you like this word repeated?"))
 print (word*repeat)
 #2. Prompt the user for their name and their age. Calculate their age next year. Use string concatenation to print "Hello, <name>! You are <age1> years old. Next year, you will be <age2> years old."
 name=input("Hello user, what is your name?")
-age=int(input((name)+", how old are turning this year?"))
-year= 2025-age
-print("You must have been born in the year:", (year))
+age=int(input((name)+", how old are turn this year?"))
+age1= age+1
+print("Hello,",name,"! You are",age, "years old. Next year, you will be",age1,"years old.")
 #3. Prompt the user for a sentence and a word to try to find in that sentence. Have the program print out whether the word was found in the sentence. (i.e. True or False)
 sentence=input("Please give me a sentence.")
 word=input("Please give me a word to search for.")
