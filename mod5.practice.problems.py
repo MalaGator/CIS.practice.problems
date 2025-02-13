@@ -19,7 +19,7 @@ for num in range(2, 21, 2):
 #4. Use nested for loops to create a simple multiplication table for numbers 1 through 5. Format your output so that each row corresponds to multiplying by a specific number. Example output:
 for i in range(1, 6):
     for j in range(1, 6):
-       print(i * j, end=" ")
+       print(i * j)\t
     print()
 # 1   2   3   4   5
 # 2   4   6   8   10
